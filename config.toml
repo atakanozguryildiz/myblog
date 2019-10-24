@@ -1,0 +1,4 @@
+baseURL = "http://www.atakanozguryildiz.com"
+languageCode = "en-us"
+title = "Atakan Özgür Yıldız"
+theme = "hyde-hyde"

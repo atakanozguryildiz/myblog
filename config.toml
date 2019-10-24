@@ -1,4 +1,68 @@
-baseURL = "http://www.atakanozguryildiz.com"
-languageCode = "en-us"
-title = "Atakan Özgür Yıldız"
+## Basic Configuration
+baseurl = "https://www.atakanozguryildiz.com"
+languageCode = "en"
+
+title = "Atakan Ozgur Yildiz"
 theme = "hyde-hyde"
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
+
+# summarylength = 30
+
+#paginate = 5
+
+## Site Settings
+[params]
+    author = "Atakan Ozgur Yildiz"
+    title = "Atakan Ozgur Yildiz"
+    # description = "..."
+    authorimage = "/img/profile.jpeg"
+    dateformat = "Jan 2, 2006"
+
+    # sidebar, copyright & license
+    copyright = "htr3n"
+    license = "CC BY-SA 4.0"
+    licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+    showBuiltWith = true
+
+    # https://highlightjs.org
+    highlightjs = true
+    highlightjsstyle = "github"
+    
+    # please choose either GraphComment or Disqus or Utterances
+    #GraphCommentId = "..."
+    #UtterancesRepo = "..." # https://utteranc.es/
+    #UtterancesIssueTerm = "..." # pathname, url, title, og:title
+    #UtterancesTheme = "..." # github-light or github-dark
+
+    # Table of contents
+    #toc = none, "hugo", or "tocbot"
+
+## Social Accounts
+[params.social]
+    github = "atakanozguryildiz"
+    instagram = "aozguryildiz"
+    linkedin = "atakan-ozgur-yildiz"
+    stackoverflow = "4134272"
+    email = "atakanozguryildiz@gmail.com"
+    # gravatar = "your-email@example.com"
+
+## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+    name = "Portfolio"
+    identifier = "portfolio"
+    weight = 200
+    url = "/portfolio/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 300
+    url = "/about/"

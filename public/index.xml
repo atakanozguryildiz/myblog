@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Atakan Özgür Yıldız</title>
-    <link>http://www.atakanozguryildiz.com/</link>
-    <description>Recent content on Atakan Özgür Yıldız</description>
+    <title>Atakan Ozgur Yildiz</title>
+    <link>http://localhost:8091/</link>
+    <description>Recent content on Atakan Ozgur Yildiz</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
+    <lastBuildDate>Thu, 31 Oct 2019 15:50:58 +0300</lastBuildDate>
     
-	<atom:link href="http://www.atakanozguryildiz.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:8091/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:8091/posts/my-first-post/</link>
+      <pubDate>Thu, 31 Oct 2019 15:50:58 +0300</pubDate>
+      
+      <guid>http://localhost:8091/posts/my-first-post/</guid>
+      <description>First Blog Post This website is built with Hugo. I will share posts and side projects on this blog.</description>
+    </item>
+    
+    <item>
+      <title>hyde-hyde</title>
+      <link>http://localhost:8091/portfolio/hyde-hyde/</link>
+      <pubDate>Sat, 27 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8091/portfolio/hyde-hyde/</guid>
+      <description>Hyde-hyde is a responsive Hugo theme inspired by @spf13&amp;rsquo;s Hyde and its variant Nate Finch&amp;rsquo;s blog. It was heavily restructured with modularised page layouts for easier maintenance and modification. Hyde-hyde offers awesome features such as nice colour tone, code highlighting, Font-Awesome 5&amp;rsquo;s sidebar icons), a cool portfolio page, more choices for commenting (e.g. GraphComment, Disqus).</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>http://localhost:8091/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:8091/about/</guid>
+      <description>I&amp;rsquo; m Atakan Özgür Yıldız.</description>
+    </item>
     
   </channel>
 </rss>

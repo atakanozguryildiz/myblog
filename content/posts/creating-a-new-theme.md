@@ -6,6 +6,7 @@ title: Creating a New Theme
 categories: [ "Development", "hugo" ]
 tags: ["hugo", "theme", "html", "css"]
 weight: 10
+draft: true
 ---
 
 

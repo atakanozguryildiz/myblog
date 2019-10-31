@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Atakan Ozgur Yildiz</title>
-    <link>http://localhost:8091/posts/</link>
+    <link>http://www.atakanozguryildiz.com/posts/</link>
     <description>Recent content in Posts on Atakan Ozgur Yildiz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 31 Oct 2019 15:50:58 +0300</lastBuildDate>
     
-	<atom:link href="http://localhost:8091/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.atakanozguryildiz.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My First Post</title>
-      <link>http://localhost:8091/posts/my-first-post/</link>
+      <link>http://www.atakanozguryildiz.com/posts/my-first-post/</link>
       <pubDate>Thu, 31 Oct 2019 15:50:58 +0300</pubDate>
       
-      <guid>http://localhost:8091/posts/my-first-post/</guid>
+      <guid>http://www.atakanozguryildiz.com/posts/my-first-post/</guid>
       <description>First Blog Post This website is built with Hugo. I will share posts and side projects on this blog.</description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Atakan Ozgur Yildiz</title>
-    <link>http://localhost:8091/portfolio/</link>
+    <link>http://www.atakanozguryildiz.com/portfolio/</link>
     <description>Recent content in Projects on Atakan Ozgur Yildiz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 27 Jan 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:8091/portfolio/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.atakanozguryildiz.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>hyde-hyde</title>
-      <link>http://localhost:8091/portfolio/hyde-hyde/</link>
+      <link>http://www.atakanozguryildiz.com/portfolio/hyde-hyde/</link>
       <pubDate>Sat, 27 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:8091/portfolio/hyde-hyde/</guid>
+      <guid>http://www.atakanozguryildiz.com/portfolio/hyde-hyde/</guid>
       <description>Hyde-hyde is a responsive Hugo theme inspired by @spf13&amp;rsquo;s Hyde and its variant Nate Finch&amp;rsquo;s blog. It was heavily restructured with modularised page layouts for easier maintenance and modification. Hyde-hyde offers awesome features such as nice colour tone, code highlighting, Font-Awesome 5&amp;rsquo;s sidebar icons), a cool portfolio page, more choices for commenting (e.g. GraphComment, Disqus).</description>
     </item>
     

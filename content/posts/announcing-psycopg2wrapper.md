@@ -1,6 +1,7 @@
 ---
 title: "Announcing psycopg2-wrapper"
 date: 2020-01-08T10:26:59+03:00
+slug: announcing-psycopg2-wrapper
 tags : [
     "python",
     "postgresql",

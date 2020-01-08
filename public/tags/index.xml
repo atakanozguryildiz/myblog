@@ -6,9 +6,46 @@
     <description>Recent content in Tags on Atakan Ozgur Yildiz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Wed, 08 Jan 2020 10:26:59 +0300</lastBuildDate>
     
 	<atom:link href="http://www.atakanozguryildiz.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>development</title>
+      <link>http://www.atakanozguryildiz.com/tags/development/</link>
+      <pubDate>Wed, 08 Jan 2020 10:26:59 +0300</pubDate>
+      
+      <guid>http://www.atakanozguryildiz.com/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>postgresql</title>
+      <link>http://www.atakanozguryildiz.com/tags/postgresql/</link>
+      <pubDate>Wed, 08 Jan 2020 10:26:59 +0300</pubDate>
+      
+      <guid>http://www.atakanozguryildiz.com/tags/postgresql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>psycopg2</title>
+      <link>http://www.atakanozguryildiz.com/tags/psycopg2/</link>
+      <pubDate>Wed, 08 Jan 2020 10:26:59 +0300</pubDate>
+      
+      <guid>http://www.atakanozguryildiz.com/tags/psycopg2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>http://www.atakanozguryildiz.com/tags/python/</link>
+      <pubDate>Wed, 08 Jan 2020 10:26:59 +0300</pubDate>
+      
+      <guid>http://www.atakanozguryildiz.com/tags/python/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

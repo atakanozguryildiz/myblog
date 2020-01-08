@@ -17,19 +17,23 @@
     
     
 
-<title>hyde-hyde • Atakan Ozgur Yildiz</title>
+<title>Announcing psycopg2-wrapper • Atakan Ozgur Yildiz</title>
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="hyde-hyde"/>
-<meta name="twitter:description" content="A simple and cool Hugo theme"/>
+<meta name="twitter:title" content="Announcing psycopg2-wrapper"/>
+<meta name="twitter:description" content="psycopg2 is a postgresql database adapter for database operations. It is used behind many orm tools.
+I prefer to use orm tools for big projects and psycopg2 for small projects. When I use psycopg2 in my projects, I realize that I always create a database.py and use it to execute sql commands so I have decided to create a package and publish it.
+It&rsquo; s very basic psycopg2 wrapper and it works fine for basic usage."/>
 
-<meta property="og:title" content="hyde-hyde" />
-<meta property="og:description" content="A simple and cool Hugo theme" />
+<meta property="og:title" content="Announcing psycopg2-wrapper" />
+<meta property="og:description" content="psycopg2 is a postgresql database adapter for database operations. It is used behind many orm tools.
+I prefer to use orm tools for big projects and psycopg2 for small projects. When I use psycopg2 in my projects, I realize that I always create a database.py and use it to execute sql commands so I have decided to create a package and publish it.
+It&rsquo; s very basic psycopg2 wrapper and it works fine for basic usage." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.atakanozguryildiz.com/portfolio/hyde-hyde/" />
-<meta property="article:published_time" content="2018-01-27T00:00:00+00:00" />
-<meta property="article:modified_time" content="2018-01-27T00:00:00+00:00" /><meta property="og:site_name" content="Atakan Ozgur Yildiz" />
+<meta property="og:url" content="http://www.atakanozguryildiz.com/posts/announcing-psycopg2wrapper/" />
+<meta property="article:published_time" content="2020-01-08T10:26:59+03:00" />
+<meta property="article:modified_time" content="2020-01-08T10:26:59+03:00" /><meta property="og:site_name" content="Atakan Ozgur Yildiz" />
 
 
     
@@ -175,16 +179,48 @@ Built with <a href="https://gohugo.io">Hugo</a> ❤️ <a href="https://github.c
     
 <article>
   <header>
-    <h1>hyde-hyde</h1>
+    <h1>Announcing psycopg2-wrapper</h1>
     
     
 <div class="post__meta">
     
     
-      <i class="fas fa-calendar-alt"></i> Jan 27, 2018
+      <i class="fas fa-calendar-alt"></i> Jan 8, 2020
     
     
     
+      
+      
+          in
+          
+          
+              <a class="badge badge-category" href="/categories/development">DEVELOPMENT</a>
+              •
+          
+              <a class="badge badge-category" href="/categories/python">PYTHON</a>
+              
+          
+      
+    
+    
+    
+      
+      
+          <br/>
+           <i class="fas fa-tags"></i>
+          
+          <a class="badge badge-tag" href="/tags/python">python</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/postgresql">postgresql</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/psycopg2">psycopg2</a>
+           
+      
+          <a class="badge badge-tag" href="/tags/development">development</a>
+          
+      
     
     
     <br/>
@@ -196,18 +232,32 @@ Built with <a href="https://gohugo.io">Hugo</a> ❤️ <a href="https://github.c
   
   
   <div class="post">
-    <p><a href="https://github.com/htr3n/hyde-hyde"><em>Hyde-hyde</em></a> is a responsive <a href="https://gohugo.io">Hugo</a> theme inspired by @spf13's <a href="https://github.com/spf13/hyde.git">Hyde</a> and its variant <a href="https://npf.io">Nate Finch's blog</a>. It was heavily restructured with modularised page layouts for easier maintenance and modification. <em>Hyde-hyde</em> offers awesome features such as nice colour tone, <a href="https://highlightjs.org">code highlighting</a>, <a href="https://fontawesome.com">Font-Awesome 5's sidebar icons</a>), a cool portfolio page, more choices for commenting (e.g. <a href="https://graphcomment.com">GraphComment</a>, <a href="https://disqus.com">Disqus</a>).</p>
-
+    <p>psycopg2 is a postgresql database adapter for database operations. It is used behind many orm tools.</p>
+<p>I prefer to use orm tools for big projects and psycopg2 for small projects. When I use psycopg2 in my projects, I realize that I always create a database.py and use it to execute sql commands so I have decided to create a package and publish it.</p>
+<p>It&rsquo; s very basic psycopg2 wrapper and it works fine for basic usage. Some of features are listed below.</p>
+<ul>
+<li>It uses client side connection pool and connection size is configurable.</li>
+<li>It uses client side cursor.</li>
+<li>It manages creating and closing of cursors and connections.</li>
+<li>It has easy interface to execute query, only one method.</li>
+</ul>
+<p>For installing;</p>
+<pre><code>pip install psycopg2-wrapper
+</code></pre><p>For usage;</p>
+<pre><code>from psycopg2_wrapper.database import Database
+database = Database(host='host_name', database='db_name', user='db_user', password='db_password')
+result = database.execute_query('select * from user where id=%s', (1,))
+</code></pre>
   </div>
   
 
 <div class="navigation navigation-single">
     
-    
-    <a href="/portfolio/psycopg2-wrapper/" class="navigation-next">
-      <span class="navigation-tittle">Psycopg2 Wrapper</span>
-      <i aria-hidden="true" class="fa fa-chevron-right"></i>
+    <a href="/posts/my-first-post/" class="navigation-prev">
+      <i aria-hidden="true" class="fa fa-chevron-left"></i>
+      <span class="navigation-tittle">My First Post</span>
     </a>
+    
     
 </div>
 

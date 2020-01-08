@@ -6,9 +6,28 @@
     <description>Recent content in Categories on Atakan Ozgur Yildiz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Wed, 08 Jan 2020 10:26:59 +0300</lastBuildDate>
     
 	<atom:link href="http://www.atakanozguryildiz.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>development</title>
+      <link>http://www.atakanozguryildiz.com/categories/development/</link>
+      <pubDate>Wed, 08 Jan 2020 10:26:59 +0300</pubDate>
+      
+      <guid>http://www.atakanozguryildiz.com/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>http://www.atakanozguryildiz.com/categories/python/</link>
+      <pubDate>Wed, 08 Jan 2020 10:26:59 +0300</pubDate>
+      
+      <guid>http://www.atakanozguryildiz.com/categories/python/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

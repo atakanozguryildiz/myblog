@@ -24,6 +24,8 @@ It' s very basic psycopg2 wrapper and it works fine for basic usage. Some of fea
 * It uses client side cursor.
 * It manages creating and closing of cursors and connections.
 * It has easy interface to execute query, only one method.
+* It uses transaction block for crud(insert-update-delete-select) operations.
+* It uses auto commit mode for non crud operations.
 
 For installing;
 ```

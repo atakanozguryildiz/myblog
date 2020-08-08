@@ -2,8 +2,6 @@
 title = "About me"
 +++
 
-I' m Atakan Özgür Yıldız. My main interest is backend development. I also enjoy to create small utils packages.
-I work as a full stack developer at Etiya. I' m at Cognitus Team and we build artificial intelligence system and sell it as software as a service.
+I' m Atakan Özgür Yıldız. I work as a backend developer at Trendyol that the biggest e-commerce company in Turkey.
 
-My main technology stack is like this;
-python, django, django rest framework, celery, flask, postgresql, docker, docker-swarm, nginx, gunicorn, redis, jenkins, linux, sentry, vim, tmux, aws(ec2, s3)
+I want to share basic post in this blog.

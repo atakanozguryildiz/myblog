@@ -13,10 +13,10 @@
     
     <item>
       <title>Announcing psycopg2-wrapper</title>
-      <link>http://www.atakanozguryildiz.com/posts/announcing-psycopg2wrapper/</link>
+      <link>http://www.atakanozguryildiz.com/posts/announcing-psycopg2-wrapper/</link>
       <pubDate>Wed, 08 Jan 2020 10:26:59 +0300</pubDate>
       
-      <guid>http://www.atakanozguryildiz.com/posts/announcing-psycopg2wrapper/</guid>
+      <guid>http://www.atakanozguryildiz.com/posts/announcing-psycopg2-wrapper/</guid>
       <description>psycopg2 is a postgresql database adapter for database operations. It is used behind many orm tools.
 I prefer to use orm tools for big projects and psycopg2 for small projects. When I use psycopg2 in my projects, I realize that I always create a database.py and use it to execute sql commands so I have decided to create a package and publish it.
 It&amp;rsquo; s very basic psycopg2 wrapper and it works fine for basic usage.</description>

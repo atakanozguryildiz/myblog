@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.atakanozguryildiz.com/posts/announcing-psycopg2wrapper/</loc>
+    <loc>http://www.atakanozguryildiz.com/posts/announcing-psycopg2-wrapper/</loc>
     <lastmod>2020-01-08T10:26:59+03:00</lastmod>
   </url>
   
@@ -43,12 +43,12 @@
   </url>
   
   <url>
-    <loc>http://www.atakanozguryildiz.com/categories/python/</loc>
+    <loc>http://www.atakanozguryildiz.com/tags/python/</loc>
     <lastmod>2020-01-08T10:26:59+03:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.atakanozguryildiz.com/tags/python/</loc>
+    <loc>http://www.atakanozguryildiz.com/categories/python/</loc>
     <lastmod>2020-01-08T10:26:59+03:00</lastmod>
   </url>
   
@@ -65,11 +65,6 @@
   <url>
     <loc>http://www.atakanozguryildiz.com/portfolio/psycopg2-wrapper/</loc>
     <lastmod>2020-01-08T10:06:36+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.atakanozguryildiz.com/posts/my-first-post/</loc>
-    <lastmod>2019-10-31T15:50:58+03:00</lastmod>
   </url>
   
   <url>

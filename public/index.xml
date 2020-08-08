@@ -13,10 +13,10 @@
     
     <item>
       <title>Announcing psycopg2-wrapper</title>
-      <link>http://www.atakanozguryildiz.com/posts/announcing-psycopg2wrapper/</link>
+      <link>http://www.atakanozguryildiz.com/posts/announcing-psycopg2-wrapper/</link>
       <pubDate>Wed, 08 Jan 2020 10:26:59 +0300</pubDate>
       
-      <guid>http://www.atakanozguryildiz.com/posts/announcing-psycopg2wrapper/</guid>
+      <guid>http://www.atakanozguryildiz.com/posts/announcing-psycopg2-wrapper/</guid>
       <description>psycopg2 is a postgresql database adapter for database operations. It is used behind many orm tools.
 I prefer to use orm tools for big projects and psycopg2 for small projects. When I use psycopg2 in my projects, I realize that I always create a database.py and use it to execute sql commands so I have decided to create a package and publish it.
 It&amp;rsquo; s very basic psycopg2 wrapper and it works fine for basic usage.</description>
@@ -29,16 +29,7 @@ It&amp;rsquo; s very basic psycopg2 wrapper and it works fine for basic usage.</
       
       <guid>http://www.atakanozguryildiz.com/portfolio/psycopg2-wrapper/</guid>
       <description>Very simple psycopg2 wrapper for executing sql commands with one line code. It manages database connections and cursor easily. It&amp;rsquo; s developed for basic usages.
-It manages database connection with client side connection pool. It uses client side cursor. It uses transaction block for crud(insert-update-delete-select) operations. It uses auto commit mode for non crud operations.</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>http://www.atakanozguryildiz.com/posts/my-first-post/</link>
-      <pubDate>Thu, 31 Oct 2019 15:50:58 +0300</pubDate>
-      
-      <guid>http://www.atakanozguryildiz.com/posts/my-first-post/</guid>
-      <description></description>
+It uses client side connection pool and connection size is configurable. It uses client side cursor. It manages creating and closing of cursors and connections. It has easy interface to execute query, only one method. It uses transaction block for crud(insert-update-delete-select) operations. It uses auto commit mode for non crud operations.</description>
     </item>
     
     <item>
@@ -47,7 +38,7 @@ It manages database connection with client side connection pool. It uses client 
       <pubDate>Sat, 27 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>http://www.atakanozguryildiz.com/portfolio/hyde-hyde/</guid>
-      <description>Hyde-hyde is a responsive Hugo theme inspired by @spf13&#39;s Hyde and its variant Nate Finch&#39;s blog. It was heavily restructured with modularised page layouts for easier maintenance and modification. Hyde-hyde offers awesome features such as nice colour tone, code highlighting, Font-Awesome 5&#39;s sidebar icons), a cool portfolio page, more choices for commenting (e.g. GraphComment, Disqus).</description>
+      <description>Hyde-hyde is a responsive Hugo theme inspired by @spf13&amp;rsquo;s Hyde and its variant Nate Finch&amp;rsquo;s blog. It was heavily restructured with modularised page layouts for easier maintenance and modification. Hyde-hyde offers awesome features such as nice colour tone, code highlighting, Font-Awesome 5&amp;rsquo;s sidebar icons), a cool portfolio page, more choices for commenting (e.g. GraphComment, Disqus).</description>
     </item>
     
     <item>
@@ -56,7 +47,8 @@ It manages database connection with client side connection pool. It uses client 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.atakanozguryildiz.com/about/</guid>
-      <description>I&amp;rsquo; m Atakan Özgür Yıldız.</description>
+      <description>I&amp;rsquo; m Atakan Özgür Yıldız. I work as a backend developer at Trendyol that the biggest e-commerce company in Turkey.
+I want to share basic post in this blog.</description>
     </item>
     
   </channel>

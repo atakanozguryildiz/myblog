@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>development on Atakan Ozgur Yildiz</title>
-    <link>http://www.atakanozguryildiz.com/tags/development/</link>
-    <description>Recent content in development on Atakan Ozgur Yildiz</description>
+    <title>go on Atakan Ozgur Yildiz</title>
+    <link>http://www.atakanozguryildiz.com/tags/go/</link>
+    <description>Recent content in go on Atakan Ozgur Yildiz</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Jan 2020 10:26:59 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.atakanozguryildiz.com/tags/development/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.atakanozguryildiz.com/tags/go/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Announcing psycopg2-wrapper</title>
-      <link>http://www.atakanozguryildiz.com/posts/announcing-psycopg2-wrapper/</link>
-      <pubDate>Wed, 08 Jan 2020 10:26:59 +0300</pubDate>
-      
-      <guid>http://www.atakanozguryildiz.com/posts/announcing-psycopg2-wrapper/</guid>
-      <description>psycopg2 is a postgresql database adapter for database operations. It is used behind many orm tools.
-I prefer to use orm tools for big projects and psycopg2 for small projects. When I use psycopg2 in my projects, I realize that I always create a database.py and use it to execute sql commands so I have decided to create a package and publish it.
-It&amp;rsquo; s very basic psycopg2 wrapper and it works fine for basic usage.</description>
-    </item>
     
     <item>
       <title>(Hu)go Template Primer</title>
